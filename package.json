@@ -1,0 +1,23 @@
+{
+  "name": "intro-to-graphql-server",
+  "version": "1.0.0",
+  "description": "introduction to how GraphQL server works",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com-oluwatomisin-code:Oluwatomisin-code/Intro-to-GraphQL-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "nodemon": "^2.0.19"
+  }
+}
