@@ -10,6 +10,8 @@ const seedData = [
 ]
 
 //every graphQl server has two core component it needs to work which is : Schema and Resolver
+//Schema: is basically a model of the data that can be fetched through the graphQL server
+//Resolver: basically tells graphQl how to populate each field in the schema with data
 
 const languageType = new GraphQLObjectType({
     name: 'language',
@@ -65,9 +67,7 @@ const rootMutation = new GraphQLObjectType({
     }
 })
 
-//Schema: is basically a model of the data that can be fetched through the graphQL server
 const schema = new GraphQLSchema({query: rootQuery, mutation: rootMutation})
-//Resolver: basically telss graphQl how to populate each field in the schema with data
 
 app.use('/graphql', graphqlHTTP({
     schema,
