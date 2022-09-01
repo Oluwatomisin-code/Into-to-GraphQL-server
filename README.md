@@ -1,2 +1,2 @@
-# Into-to-GraphQL-server
+# Intro-to-GraphQL-server
 introduction to how GraphQL server works
